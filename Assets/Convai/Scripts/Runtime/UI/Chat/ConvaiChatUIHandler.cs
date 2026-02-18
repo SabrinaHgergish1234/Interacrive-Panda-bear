@@ -122,7 +122,7 @@ namespace Convai.Scripts.Runtime.UI
             characters = characters.Where(c => c.characterGameObject != null).ToList();
 
             // Add missing characters
-            foreach (ConvaiNPC convaiNpc in FindObjectsOfType<ConvaiNPC>())
+            foreach (ConvaiNPC convaiNpc in FindObjectsByType<ConvaiNPC>(FindObjectsSortMode.None))
             {
                 if (characters.Any(c => c.characterGameObject == convaiNpc))
                     continue;

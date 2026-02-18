@@ -9,9 +9,8 @@ EditorBuildSettings:
     path: Assets/Convai/ConvaiAR/Scenes/Convai Demo - AR.unity
     guid: d23e25ca551aacf4c80e8a01703e8490
   m_configObjects:
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: b71abdcb0965af745982c15247b1d41a,
-      type: 2}
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: ffdcbd180cf4b634bbf03998612b8018,
-      type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 72875bb9cae37ab4ea7de2a6a0fcaee4,
-      type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: b71abdcb0965af745982c15247b1d41a, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0465d33c6aee55f44b0237db8b0e0259, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: ffdcbd180cf4b634bbf03998612b8018, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 72875bb9cae37ab4ea7de2a6a0fcaee4, type: 2}
+  m_UseUCBPForAssetBundles: 0

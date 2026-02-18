@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 00000000000000000000000000000000
+  productGUID: 86ec4fe9bf596434e8d553398be9de90
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -830,7 +830,7 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   scriptingDefineSymbols:
-    Android: READY_PLAYER_ME;CC_TOOLS
+    Android: CC_TOOLS
     EmbeddedLinux: CC_TOOLS
     GameCoreScarlett: CC_TOOLS
     GameCoreXboxOne: CC_TOOLS
@@ -840,8 +840,8 @@ PlayerSettings:
     PS5: CC_TOOLS
     QNX: CC_TOOLS
     Stadia: CC_TOOLS
-    Standalone: AutoSetupForUnity;READY_PLAYER_ME;CC_TOOLS
-    WebGL: READY_PLAYER_ME;CC_TOOLS
+    Standalone: AutoSetupForUnity;CC_TOOLS
+    WebGL: CC_TOOLS
     Windows Store Apps: CC_TOOLS
     XboxOne: CC_TOOLS
     iPhone: CC_TOOLS
@@ -961,7 +961,7 @@ PlayerSettings:
   cloudProjectId: 1105834c-1326-4a93-9b74-c4771c374650
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
+  projectName: Interactive panda bear
   organizationId: sabrinagergish
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
